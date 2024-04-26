@@ -1,0 +1,15 @@
+/* EditJob.css */
+
+.edit-job-container {
+    margin: 20px;
+}
+
+.upload-file-section,
+.comment-section {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}

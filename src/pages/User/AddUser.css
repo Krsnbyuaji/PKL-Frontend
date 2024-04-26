@@ -1,0 +1,34 @@
+.add-user-container {
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+#add-user form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #008DDA;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+#add-user form button[type="submit"]:hover {
+    background-color: #1B262C;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }

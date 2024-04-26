@@ -1,0 +1,62 @@
+#sidebar {
+    min-width: 220px;
+    max-width: 220px;
+    background: #34B3F1;
+    color: #fff;
+    transition: all 0.3s;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak vertikal */
+  }
+  
+  .nav-item {
+    list-style-type: none;
+    /* margin-right: 25px; */
+  }
+
+  .user-panel {
+    display: flex;
+    align-items: center; /* Menengahkan secara vertikal elemen-elemen di dalamnya */
+}
+
+.user-panel .image {
+    margin-right: 10px; /* Menambahkan jarak antara gambar dan teks */
+}
+
+  .sidebar-header {
+    padding: 20px;
+  }
+  
+  .list-unstyled {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .components {
+    margin-bottom: auto; /* Memberikan margin bawah auto agar konten di sidebar berada di atas logout */
+  }
+  
+  .components li {
+    position: relative;
+  }
+  
+  .components li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  /* Menggeser tautan "Log Out" ke paling bawah */
+  .components li:last-child .logout {
+    margin-top: 300px;
+  }
+  
+  .components li a:hover {
+    background-color: #96EFFF;
+    
+  }
+  

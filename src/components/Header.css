@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #DDDDDD;
+    color: #000000;
+    margin-left: 220px;
+
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    list-style-type: none;
+    margin-right: 50px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+  }
+  
+  .dropdown-item {
+    display: block;
+    color: #070707;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  
+  

@@ -1,0 +1,37 @@
+#edit-user form button[type="submit"] {
+  width: 5px;
+  padding: auto;
+  background-color: #008DDA;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+#edit-user form button[type="submit"]:hover {
+  background-color: #1B262C;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#edit-user form button[type="delete"]{
+  width: 5px;
+  height: auto;
+  background-color: #e92f2f;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary, btn-danger {
+  margin-right: 10px;
+}
